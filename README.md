@@ -1,12 +1,23 @@
 # Machine Learning Project
-ML Project (Rossmann Sales Prediction)
+Sales Forecasting & Promotion Impact Analysis – Rossmann Retail
 ## Project Overview
-Rossmann operates over 3000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
+Rossmann operates over 3000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied. This project focuses on forecasting daily retail sales and analyzing the impact of promotions, holidays, and seasonality on store performance using Python.The analysis includes data cleaning, exploratory data analysis (EDA), feature engineering, and regression-based modeling to predict sales and support business decisions related to pricing, promotions, and inventory planning. The project demonstrates an end-to-end data analytics workflow with a strong emphasis on business interpretation rather than just model performance.
 
-By July 2015, the main aim of this project was to predict sales for each 1115 stores daily and the Sales data available on Kaggle.
+## Business Problem
+Retail businesses need accurate sales forecasts to optimize pricing, promotion planning, and inventory management. Incorrect forecasts can lead to stockouts, revenue loss, or excess inventory costs.
 
-## Objective
-Predict daily sales for Rossmann stores using historical sales, store information, promotions, and external factors such as competition and holidays.
+## Analytical Approach
+Cleaned and validated historical sales and store-level data
+Performed EDA to identify trends, seasonality, and promotion effects
+Engineered features such as promotions, holidays, and store characteristics
+Built and evaluated regression-based models for sales forecasting
+Interpreted model results to derive business insights
+
+## Key Insights
+Promotions significantly increased daily sales across most stores
+Sales showed strong weekly and seasonal patterns
+Holiday periods had a noticeable impact on sales variability
+Store type and competition distance influenced sales performance
 
 ## Dataset
 - Source:Kaggle Dataset
@@ -34,10 +45,11 @@ Predict daily sales for Rossmann stores using historical sales, store informatio
 - RMSE (Root Mean Squared Error) — used to compare model performance
 
 ## Tools & Technologies
-- Python
-- Google Colab
-- Scikit-learn
-- Pandas, NumPy
+- Python (Pandas, NumPy, Matplotlib, Scikit-learn)
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Regression Analysis
+- Model Evaluation
 
 ## Model Selection
 - XGBoost performed best with validation RMSE ≈ 1152
